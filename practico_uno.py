@@ -15,14 +15,14 @@ print("""
 try:    
     #solicitamos el numero de opcion a verificar
     opcion = int(input("ingresa la opcion deseada: "))
-#en el exept solo se ingresara en caso de que ubiese un error al seleccionar una opcion
+#en el exept solo se ingresara en caso de que hubiese un error al seleccionar una opcion
 except Exception as e:
     #indicamos al usuario el error
     print("Error, opcion incorrecta, elije una opcion del Menu")
 #ingresamos al bloque else solo si no hubo un error previo 
 else:
 
-    #con el bloque de confisionales ingresamos nuevamente a otro bloque try...
+    #con el bloque de condicionales ingresamos nuevamente a otro bloque try...
     if opcion == 1:
         
         try:

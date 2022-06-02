@@ -29,14 +29,15 @@ else:
             #solicitamos los datos para la operacion de la opcion 1
             num1 = float(input("Ingresa el primer numero: "))
             num2 = float(input("Ingresa el segundo numero: "))
+            num3 = float(input("Ingresa el tercer numero: "))
         except Exception as e:
             print("Error solo puedes digitar numeros!, vuelve a intentar")
         else:
             #realizamos la operacion
-            resultado = num1 + num2
+            resultado = num1 + num2 + num3
             #imprimimos con un "f" str ya que nos da la posibilidad de mostrar datos y 
             # variables de una forma mas prolija... la "\n" es para hacer un salto de linea.
-            print(f"De la suma {num1} + {num2} el resultado es : {resultado}\n")
+            print(f"De la suma {num1} + {num2} + {num3} el resultado es : {resultado}\n")
 
     elif opcion == 2:
         #a "pass" igual que a este comentario lo eliminan una vez que realicen su parte del codigo...

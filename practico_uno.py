@@ -42,16 +42,11 @@ elif opcion == 2:
         try:
             num1 = float(input("Ingresa el primer numero: "))
             num2 = float(input("Ingresa el segundo numero: "))
-            num3 = float(input("Ingresa el tercer numero: "))
         except Exception as e:
             print("Error solo puedes digitar numeros!, vuelve a intentar")
         else:
-            #realizamos la operacion
             resultado= num1 - num2  
-
-            print(f"De la suma {num1} - {num2} +  el resultado es : {resultado}\n")
-            #Mateo hizo la opcion 2
-        pass
+            print(f"De la suma {num1} - {num2}  el resultado es : {resultado}\n"
     elif opcion == 3:
         #a "pass" igual que a este comentario lo eliminan una vez que realicen su parte del codigo...
         # se coloca pass solo para continuar programando y luego rellenar esta porsion de codigom y asi evitar

@@ -50,6 +50,7 @@ elif opcion == 2:
             resultado= num1 - num2  
 
             print(f"De la suma {num1} - {num2} +  el resultado es : {resultado}\n")
+            #Mateo hizo la opcion 2
         pass
     elif opcion == 3:
         #a "pass" igual que a este comentario lo eliminan una vez que realicen su parte del codigo...

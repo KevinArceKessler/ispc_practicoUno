@@ -38,7 +38,7 @@ else:
             #imprimimos con un "f" str ya que nos da la posibilidad de mostrar datos y 
             # variables de una forma mas prolija... la "\n" es para hacer un salto de linea.
             print(f"De la suma {num1} + {num2} + {num3} el resultado es : {resultado}\n")
-elif opcion == 2:
+    elif opcion == 2:
         try:
             num1 = float(input("Ingresa el primer numero: "))
             num2 = float(input("Ingresa el segundo numero: "))

@@ -46,7 +46,7 @@ else:
             print("Error solo puedes digitar numeros!, vuelve a intentar")
         else:
             resultado= num1 - num2  
-            print(f"De la resta {num1} - {num2}  el resultado es : {resultado}\n"
+            print(f"De la resta {num1} - {num2}  el resultado es : {resultado}\n")
     elif opcion == 3:
         #a "pass" igual que a este comentario lo eliminan una vez que realicen su parte del codigo...
         # se coloca pass solo para continuar programando y luego rellenar esta porsion de codigom y asi evitar

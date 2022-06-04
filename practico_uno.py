@@ -47,7 +47,7 @@ else:
         else:
             resultado= num1 - num2  
             print(f"De la resta {num1} - {num2}  el resultado es : {resultado}\n")
-    elif opcion == 3
+    elif opcion == 3:
         # pide hacer la multiplicacion de 4 numeros asi que vamos ingresando los 4 
         try:
             num1 = float(input("ingresa tu primer numero a multiplicar: "))

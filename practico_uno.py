@@ -61,10 +61,18 @@ else:
             print(f"De la multiplicacion {num1} * {num2} * {num3} * {num4} el resultado es : {resultado}\n")       
 
     elif opcion == 4:
-        pass#a "pass" igual que a este comentario lo eliminan una vez que realicen su parte del codigo...
-        # se coloca pass solo para continuar programando y luego rellenar esta porsion de codigom y asi evitar
-        #que se rompa el prugrama al ejecutar para pribar la estructura y la primer funcion realizada.
-    
+# pide hacer la división de 4 numeros asi que vamos ingresando los 4 
+        try:
+            num1 = float(input("ingresa tu primer numero a dividir: "))
+            num2 = float(input("ingresa tu segundo numero: "))
+            num3 = float(input("ingresa el tercer numero: "))
+            num4 = float(input("ingresa el cuarto numero: "))
+        except Exception as e:
+            print("Error solo puede digitar números!, vuelve a intentar")
+        else:
+            resultado = num1 / num2 / num3 / num4 #la operacion
+            print(f"De la división {num1} / {num2} / {num3} / {num4} el resultado es : {resultado}\n")
+     
     elif opcion == 5:
         print("Terminando operacion, Saliendo....\n")
 

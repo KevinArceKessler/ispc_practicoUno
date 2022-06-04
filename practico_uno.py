@@ -71,9 +71,8 @@ else:
             print("Error solo puede digitar números!, vuelve a intentar")
         else:
             resultado = num1 / num2 / num3 / num4 #la operacion
-            print(f"De la división {num1} / {num2} / {num3} / {num4} el resultado es : {resultado}\n")
-     
-    elif opcion == 5:
+         print(f"De la división {num1} / {num2} / {num3} / {num4} el resultado es : {resultado:.2f}\n")
+            elif opcion == 5:
         print("Terminando operacion, Saliendo....\n")
 
 # como el bloque finally siempre se ejecuta lo utilizamos para saludar al terminar la operacion al usuario

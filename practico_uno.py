@@ -58,7 +58,7 @@ else:
             print("Error solo puede digitar numeros!, vuelve a intentar")
         else:
             resultado = num1 * num2 * num3 * num4 #la operacion
-            print(f"De la multiplicacion {num1} * {num2} * {num3} * {num4} el resultado es : {resultado: .2f}\n")       
+            print(f"De la multiplicacion {num1} * {num2} * {num3} * {num4} el resultado es : {resultado:.2f}\n")       
 
     elif opcion == 4:
         # pide hacer la división de 4 numeros asi que vamos ingresando los 4 

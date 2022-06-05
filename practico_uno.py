@@ -58,10 +58,10 @@ else:
             print("Error solo puede digitar numeros!, vuelve a intentar")
         else:
             resultado = num1 * num2 * num3 * num4 #la operacion
-            print(f"De la multiplicacion {num1} * {num2} * {num3} * {num4} el resultado es : {resultado}\n")       
+            print(f"De la multiplicacion {num1} * {num2} * {num3} * {num4} el resultado es : {resultado: .2f}\n")       
 
     elif opcion == 4:
-# pide hacer la división de 4 numeros asi que vamos ingresando los 4 
+        # pide hacer la división de 4 numeros asi que vamos ingresando los 4 
         try:
             num1 = float(input("ingresa tu primer numero a dividir: "))
             num2 = float(input("ingresa tu segundo numero: "))
@@ -71,13 +71,15 @@ else:
             print("Error solo puede digitar números!, vuelve a intentar")
         else:
             resultado = num1 / num2 / num3 / num4 #la operacion
-         print(f"De la división {num1} / {num2} / {num3} / {num4} el resultado es : {resultado:.2f}\n")
-            elif opcion == 5:
+            print(f"De la división {num1} / {num2} / {num3} / {num4} el resultado es : {resultado:.2f}\n")
+    elif opcion == 5:
         print("Terminando operacion, Saliendo....\n")
 
 # como el bloque finally siempre se ejecuta lo utilizamos para saludar al terminar la operacion al usuario
 finally:
     print("Gracias por utilizar nuestro programa...")
         
+
+
 
 
